@@ -11,7 +11,7 @@ class DiceRollTest {
     @Test
     fun testDiceRollUnbiased() {
         val rollResults = IntArray(6)
-        val rollCount = 10000 // Increased sample size for better statistical significance
+        val rollCount = 1000000000 // Increased sample size for better statistical significance
 
         // Roll the dice rollCount times
         for (i in 0 until rollCount) {
