@@ -30,10 +30,6 @@ application {
 }
 
 tasks {
-    withType<Jar> {
-        enabled = false
-    }
-
     withType<ShadowJar> {
         archiveClassifier.set("")
         manifest {
