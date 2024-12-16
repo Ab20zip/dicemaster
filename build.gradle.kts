@@ -21,8 +21,8 @@ dependencies {
     implementation("org.openjfx:javafx-controls:24-ea+19")
     implementation("org.jetbrains.kotlin:kotlin-stdlib")
     implementation("org.apache.commons:commons-math3:3.6.1")
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.11.3")
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.11.3")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.11.4")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.11.4")
 }
 
 application {
