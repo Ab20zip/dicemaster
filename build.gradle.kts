@@ -2,7 +2,7 @@ import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 
 plugins {
     application
-    kotlin("jvm") version "2.1.20"
+    kotlin("jvm") version "2.1.21"
     id("org.openjfx.javafxplugin") version "0.1.0"
     id("io.github.goooler.shadow") version "8.1.8"
 }
