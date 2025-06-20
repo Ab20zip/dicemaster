@@ -17,7 +17,7 @@ javafx {
 }
 
 dependencies {
-    implementation("org.openjfx:javafx-fxml:25-ea+20")
+    implementation("org.openjfx:javafx-fxml:25-ea+21")
     implementation("org.openjfx:javafx-controls:25-ea+21")
     implementation("org.jetbrains.kotlin:kotlin-stdlib")
     implementation("org.apache.commons:commons-math3:3.6.1")
